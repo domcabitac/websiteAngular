@@ -1,0 +1,14 @@
+@import '../../../styles.scss';
+
+:not(:defined) { display: none; }
+type-writer:defined::after {
+	content: attr(carret);
+	display: inline;
+	opacity: 1;
+    color: $blue;
+}
+type-writer {
+    color: white;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
