@@ -28,7 +28,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/js",
+              "src/assets/img"
             ],
             "styles": [
               "src/styles.scss",
@@ -39,7 +40,9 @@
               "src/assets/js/transform.js",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/animejs/lib/anime.es.js",
-              "node_modules/aos/dist/aos.js"
+              "node_modules/aos/dist/aos.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js"
             ]
           },
           "configurations": {
