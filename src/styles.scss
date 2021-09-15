@@ -7,8 +7,11 @@ body {
     font-family: 'Poppins', sans-serif !important;
     color: #414345;
     font-weight: lighter;
-    overflow-x: hidden;
     // margin: 0;
+}
+
+html, body {
+    overflow-x: hidden !important;
 }
 
 $blue: rgba(102, 177, 241, 0.8);

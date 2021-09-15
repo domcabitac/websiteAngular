@@ -12,3 +12,8 @@ type-writer {
     font-weight: 100;
     font-size: 2.5rem;
 }
+@media screen and (max-width: 575px) {
+    type-writer {
+        font-size: 1.6rem !important;
+    }
+}

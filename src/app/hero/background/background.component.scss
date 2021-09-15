@@ -34,3 +34,14 @@
 .bg path:nth-child(7) {
 	opacity: 0.15;
 }
+
+@media screen and (max-width: 575px) {
+	.bg {
+		background: #414345;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		height: 70vh;
+	}
+}

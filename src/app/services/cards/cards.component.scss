@@ -19,7 +19,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 757px) {
+@media screen and (max-width: 771px) {
     .cards{
         flex-direction: row;
         justify-content: flex-start;
@@ -30,7 +30,7 @@
             margin: 1rem;
         }
         p{
-            text-align: center;
+            text-align: left;
             margin: 0.1rem;
         }
         h3{
@@ -50,10 +50,11 @@
         }
     }
 }
-@media screen and (max-width: 757px) {
+@media screen and (max-width: 575px) {
     .cards{
+        margin: 1rem 0;
         #webDev {
-            width: 130px;
+            width: 115px;
         }
         svg {
             height: 85px;
@@ -63,7 +64,7 @@
         p{
             text-align: left;
             margin: 0.1rem;
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
         h3{
             margin: 0.5rem 0;
