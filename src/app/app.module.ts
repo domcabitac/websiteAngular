@@ -10,6 +10,9 @@ import { TypeWritterComponent } from './hero/type-writter/type-writter.component
 import { ServicesComponent } from './services/services.component';
 import { CardsComponent } from './services/cards/cards.component';
 import { CodeComponent } from './code/code.component';
+import { ProjectsComponent } from './code/projects/projects.component';
+import { WorkComponent } from './code/work/work.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { CodeComponent } from './code/code.component';
     ServicesComponent,
     CardsComponent,
     CodeComponent,
+    ProjectsComponent,
+    WorkComponent,
+    ContactComponent,
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
   imports: [

@@ -15,4 +15,68 @@
     h3{
         margin: 1rem;
     }
+    .listMobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 757px) {
+    .cards{
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        svg {
+            height: 85px;
+            width: 70px;
+            margin: 1rem;
+        }
+        p{
+            text-align: center;
+            margin: 0.1rem;
+        }
+        h3{
+            margin: 1rem;
+        }
+        .listDesktop {
+            display: none;
+        }
+        .listMobile {
+            display: block;
+        }
+        h3 {
+            margin: 1rem 0;
+        }
+        .content {
+            margin-left: 2rem;
+        }
+    }
+}
+@media screen and (max-width: 757px) {
+    .cards{
+        #webDev {
+            width: 130px;
+        }
+        svg {
+            height: 85px;
+            width: 70px;
+            margin: 0;
+        }
+        p{
+            text-align: left;
+            margin: 0.1rem;
+            font-size: 1rem;
+        }
+        h3{
+            margin: 0.5rem 0;
+            font-size: 1.5rem;
+        }
+        .listDesktop {
+            display: none;
+        }
+        .listMobile {
+            display: block;
+        }
+        .content {
+            margin-left: 2rem;
+        }
+    }
 }
