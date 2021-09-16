@@ -13,6 +13,7 @@ import { CodeComponent } from './code/code.component';
 import { ProjectsComponent } from './code/projects/projects.component';
 import { WorkComponent } from './code/work/work.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     WorkComponent,
     ContactComponent,
+    FooterComponent,
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
   imports: [
