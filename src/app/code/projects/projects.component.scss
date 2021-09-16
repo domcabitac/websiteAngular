@@ -200,3 +200,19 @@ h3{
     }
   }
 }
+
+
+@media screen and (max-width: 575px) {
+  .container{
+    .card {
+      width: 80vw;
+      .pic {
+        width: 80vw;
+        filter: grayscale(0%);
+      }
+    }
+    .card2 {
+      margin-top: 0;
+    }
+  }
+}

@@ -38,6 +38,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "src/assets/js/transform.js",
+              "src/assets/js/grow.js",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/animejs/lib/anime.es.js",
               "node_modules/aos/dist/aos.js",
