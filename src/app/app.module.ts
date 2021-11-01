@@ -15,6 +15,7 @@ import { WorkComponent } from './code/work/work.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CtaComponent } from './hero/cta/cta.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CtaComponent } from './hero/cta/cta.component';
     ContactComponent,
     FooterComponent,
     CtaComponent,
+    AboutComponent,
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ],
   imports: [

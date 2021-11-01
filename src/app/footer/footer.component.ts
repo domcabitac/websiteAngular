@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 declare var checkAnimation: any;
+
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
